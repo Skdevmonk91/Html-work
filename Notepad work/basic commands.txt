@@ -1,0 +1,12 @@
+1. to create new repository on command line 
+git init
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Skdevmonk91/Html-work.git
+git push -u origin main
+
+2. to push in exisiting command line
+git remote add origin https://github.com/Skdevmonk91/Html-work.git
+git branch -M main
+git push -u origin main
+
