@@ -1,0 +1,51 @@
+Html Api
+
+1.Html Geolocation
+Property	          Returns
+coords.latitude	          The latitude as a decimal number (always returned)
+coords.longitude	  The longitude as a decimal number (always returned)
+coords.accuracy	          The accuracy of position (always returned)
+coords.altitude	          The altitude in meters above the mean sea level (returned if available)
+coords.altitudeAccuracy	  The altitude accuracy of position (returned if available)
+coords.heading	          The heading as degrees clockwise from North (returned if available)
+coords.speed	          The speed in meters per second (returned if available)
+timestamp	          The date/time of the response (returned if available)
+
+2.Html Web Storage
+With web storage, web applications can store data locally within the user's browser.
+
+Before HTML5, application data had to be stored in cookies, included in every server request. Web storage is more secure, 
+and large amounts of data can be stored locally, without affecting website performance.
+
+Unlike cookies, the storage limit is far larger (at least 5MB) and information is never transferred to the server.
+
+Web storage is per origin (per domain and protocol). All pages, from one origin, can store and access the same data.
+
+HTML web storage provides two objects for storing data on the client:
+
+window.localStorage - stores data with no expiration date
+window.sessionStorage - stores data for one session (data is lost when the browser tab is closed)
+
+3.Html Web Workers
+When executing scripts in an HTML page, the page becomes unresponsive until the script is finished.
+
+A web worker is a JavaScript that runs in the background, independently of other scripts, without affecting 
+the performance of the page. You can continue to do whatever you want: 
+clicking, selecting things, etc., while the web worker runs in the background.
+
+Since web workers are in external files, they do not have access to the following JavaScript objects:
+
+The window object
+The document object
+The parent object
+
+
+4.Html Sse
+Events	        Description
+onopen	        When a connection to the server is opened
+onmessage	When a message is received
+onerror	        When an error occurs
+
+
+
+

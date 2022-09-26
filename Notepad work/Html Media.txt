@@ -1,0 +1,28 @@
+1.Html Video
+Tag	        Description
+<video>	        Defines a video or movie
+<source>	Defines multiple media resources for media elements, such as <video> and <audio>
+<track>	        Defines text tracks in media players
+
+2.Html Audio
+Tag	        Description
+<audio>	        Defines sound content
+<source>	Defines multiple media resources for media elements, such as <video> and <audio>
+
+3.Html Plug-ins
+To run Java applets
+To run Microsoft ActiveX controls
+To display Flash movies
+To display maps
+To scan for viruses
+To verify a bank id
+
+4.Html Youtube
+Upload the video to YouTube
+Take a note of the video id
+Define an <iframe> element in your web page
+Let the src attribute point to the video URL
+Use the width and height attributes to specify the dimension of the player
+Add any other parameters to the URL (see below)
+
+
